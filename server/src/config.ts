@@ -1,6 +1,8 @@
 export const config = {
-  port: 5000,
-  jwtSecret: "cv-parser-secret-key-2024",
+  // port: 5000,
+  // jwtSecret: "cv-parser-secret-key-2024",
+  port: Number(process.env.PORT) || 5000,
+jwtSecret: process.env.JWT_SECRET || "cv-parser-secret-key-2024",
   jwtExpiresIn: "24h",
   uploadDir: "uploads",
   maxFileSize: 500 * 1024 * 1024,
