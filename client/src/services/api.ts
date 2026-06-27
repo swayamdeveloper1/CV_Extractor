@@ -2,7 +2,8 @@ import axios, { AxiosPromise } from "axios";
 import { LoginResponse, UploadResponse, CandidatesResponse, ProgressState } from "../types";
 
 const api = axios.create({
-  baseURL: "/api",
+  // baseURL: "/api",
+  baseURL: import.meta.env.VITE_API_URL || "/api",
 });
 
 api.interceptors.request.use((config) => {
