@@ -1,10 +1,9 @@
 import { Router, Request, Response } from "express";
 import jwt from "jsonwebtoken";
 import { config } from "../config";
+import { users as USERS } from "../data/users";
 
 const router = Router();
-
-const USERS = [{ id: 1, username: "admin", password: "admin123", name: "Admin User" }];
 
 router.post("/login", (req: Request, res: Response): void => {
   const { username, password } = req.body;

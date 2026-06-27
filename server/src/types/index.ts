@@ -27,7 +27,7 @@ export interface Experience {
 }
 
 export interface JwtPayload {
-  userId: number;
+  userId: string;
   username: string;
 }
 
