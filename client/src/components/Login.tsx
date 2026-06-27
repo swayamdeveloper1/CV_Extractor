@@ -128,9 +128,9 @@ export const Login: React.FC<Props> = ({ onLogin }) => {
           </motion.button>
         </form>
 
-        <p className="text-center text-xs text-[var(--color-muted)] mt-6">
+        {/* <p className="text-center text-xs text-[var(--color-muted)] mt-6">
           Demo: admin / admin123
-        </p>
+        </p> */}
       </motion.div>
     </div>
   );
