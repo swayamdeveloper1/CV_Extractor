@@ -1,0 +1,13 @@
+export const config = {
+  port: 5000,
+  jwtSecret: "cv-parser-secret-key-2024",
+  jwtExpiresIn: "24h",
+  uploadDir: "uploads",
+  maxFileSize: 500 * 1024 * 1024,
+  maxFileCount: 500,
+  allowedFileTypes: [".pdf", ".docx", ".txt", ".zip"] as const,
+  openrouterApiKey: process.env.OPENROUTER_API_KEY || "",
+  openrouterModel: "openrouter/auto",
+  exaApiKey: process.env.EXA_API_KEY || "",
+  geminiApiKey: process.env.GEMINI_API_KEY || "",
+};

@@ -1,0 +1,16 @@
+[INFO] 12:25:37 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.2, typescript ver. 5.9.3)
+◇ injected env (3) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:2009:16)
+    at listenInCluster (node:net:2066:12)
+    at Server.listen (node:net:2171:7)
+    at app.listen (C:\Users\admin\Desktop\CV-Extractor\cv-parser\server\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\admin\Desktop\CV-Extractor\cv-parser\server\src\index.ts:31:5)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1854:14)
+    at Module._compile (C:\Users\admin\Desktop\CV-Extractor\cv-parser\server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\admin\AppData\Local\Temp\ts-node-dev-hook-9358048379350957.js:69:33)
+    at node:internal/modules/cjs/loader:1985:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\admin\AppData\Local\Temp\ts-node-dev-hook-9358048379350957.js:114:20)
+[ERROR] 12:25:39 Error: listen EADDRINUSE: address already in use :::5000
+
+C:\Users\admin\Desktop\CV-Extractor\cv-parser\server>
