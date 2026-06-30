@@ -16,14 +16,18 @@ const Footer: React.FC = () => {
           Developed by
         </span>
 
-        <a
+        {/* <a
           // href="https://swayamsolutions.com"
           // target="_blank"
           rel="noopener noreferrer"
           className="font-semibold text-blue-500 hover:text-blue-400 transition"
         >
           Swayam Solutions
-        </a>
+        </a> */}
+        <p>Swayam Solutions</p>
+
+
+
       </div>
 
       <a
