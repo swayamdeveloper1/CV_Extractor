@@ -17,8 +17,8 @@ const Footer: React.FC = () => {
         </span>
 
         <a
-          href="https://swayamsolutions.com"
-          target="_blank"
+          // href="https://swayamsolutions.com"
+          // target="_blank"
           rel="noopener noreferrer"
           className="font-semibold text-blue-500 hover:text-blue-400 transition"
         >
